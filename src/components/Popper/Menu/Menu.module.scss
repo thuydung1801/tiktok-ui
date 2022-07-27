@@ -1,0 +1,39 @@
+.menu-list {
+    width: 224px;
+    display: flex;
+    .menu-item {
+        margin-left: 0;
+    }
+}
+
+//fix menu-item
+.menu-item {
+    width: 100%;
+    background-color: aqua;
+    &.separate {
+        border-top: 1px solid rgb(62, 61, 61);
+    }
+    &:hover {
+        background-color: rgb(2, 2, 2);
+    }
+}
+
+//Header
+.header {
+    position: relative;
+    height: 50px;
+}
+.back-btn {
+    width: 50px;
+    height: 100%;
+    background-color: transparent;
+    &:hover {
+        cursor: pointer;
+    }
+}
+.header-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
